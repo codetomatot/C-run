@@ -1,5 +1,5 @@
 #!/bin/sh
-DIR="/home/darkmatter/Desktop/cpp/adventofcode2015"
+DIR="dir"
 inotifywait -m -r -e create -e modify --format '%w%f' "${DIR}" | while read NEWFILE
 do 
     filenamefll=$(basename -- "$NEWFILE")
