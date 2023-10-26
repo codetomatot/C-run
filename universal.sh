@@ -12,3 +12,4 @@ do
     fi
     break
 done
+# r.sh is the output file
